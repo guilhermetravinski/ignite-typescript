@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class CreateCourseService {
-    execute(name, duration, educator) {
+    execute({ duration, educator, name }) {
         console.log(name, duration, educator);
     }
 }
